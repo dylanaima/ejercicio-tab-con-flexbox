@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	margin: 10px auto;
+	font-family: sans-serif;
+
+
+}
+
+nav{
+   padding: 10px;
+   border: 2px solid #4ebbe4;
+   border-radius:3px;
+}
+ul{
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	border-bottom: 2px solid #D7DBDD
+
+}
+ul li{
+	list-style: none;
+	margin: 10px;
+
+}
+ul li a{
+	color: #4ebbe4;
+	text-decoration: none;
+}
+
+.boton{
+	border-bottom: 1px solid #4ebbe4;
+}
